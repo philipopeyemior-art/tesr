@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "path": "/", "title": "Jobiest - Your AI Agent for the Job Search" },
+    { "path": "/how-it-works", "title": "How the Jobiest Agent Works in 3 Steps" },
+    { "path": "/pricing", "title": "Pricing - Free Plan and Paid Plans in Naira - Jobiest" },
+    { "path": "/tools", "title": "Free Career Tools - Jobiest" },
+    { "path": "/support", "title": "Contact Support - Jobiest" },
+    { "path": "/styleguide", "title": "TODO-SEO: Jobiest Styleguide" }
+  ]
+}
