@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "path": "/", "title": "Jobiest - Your AI Agent for the Job Search" },
+    { "path": "/styleguide", "title": "Styleguide | Jobiest" }
+  ]
+}

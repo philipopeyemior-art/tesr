@@ -1,0 +1,3 @@
+.actions { display: flex; flex-wrap: wrap; gap: 0.65rem; margin-top: 1.4rem; }
+.previewNote { min-height: 1.25rem; margin: 0.6rem 0 0; color: #d7dfec; font-size: var(--text-13); }
+@media (max-width: 520px) { .actions { display: grid; grid-template-columns: 1fr; }.actions :global(button) { width: 100%; } }
