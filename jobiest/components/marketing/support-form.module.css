@@ -1,0 +1,13 @@
+.formCard { display: grid; gap: 1rem; border: 1px solid var(--color-line); border-radius: var(--radius-card); padding: clamp(1rem, 3vw, 1.5rem); background: #fff; box-shadow: var(--shadow-1); }
+.fields { display: grid; gap: 0.9rem; }
+.fields label { display: grid; gap: 0.35rem; }
+.fields label > span { color: var(--color-ink); font-size: var(--text-14); font-weight: 700; }
+.fields input, .fields select, .fields textarea { width: 100%; border: 1px solid #bfc8d6; border-radius: var(--radius-standard); padding: 0.7rem 0.8rem; color: var(--color-ink); background: #fff; font: 400 var(--text-15) / 1.45 var(--font-body); }
+.fields input, .fields select { min-height: 46px; }
+.fields textarea { min-height: 132px; resize: vertical; }
+.fields input::placeholder, .fields textarea::placeholder { color: #68758b; opacity: 1; }
+.fields input:focus-visible, .fields select:focus-visible, .fields textarea:focus-visible { border-color: var(--color-info); outline: 3px solid rgb(59 114 188 / 22%); outline-offset: 1px; }
+.note { margin: 0; border-inline-start: 3px solid var(--color-info); padding: 0.6rem 0.75rem; color: var(--color-muted); background: var(--color-surface-soft); font-size: var(--text-13); }
+.toastSlot { margin-top: 0.25rem; }
+
+.formCard :global(button[type="submit"]) { width: 100%; }

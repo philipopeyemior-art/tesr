@@ -1,0 +1,28 @@
+{
+  "routes": [
+    { "path": "/", "title": "Jobiest - Your AI Agent for the Job Search" },
+    { "path": "/how-it-works", "title": "How the Jobiest Agent Works in 3 Steps" },
+    { "path": "/pricing", "title": "Pricing - Free Plan and Paid Plans in Naira - Jobiest" },
+    { "path": "/tools", "title": "Free Career Tools - Jobiest" },
+    { "path": "/support", "title": "Contact Support - Jobiest" },
+    { "path": "/signup", "title": "Create Your Free Account" },
+    { "path": "/login", "title": "Jobiest - your AI career agent" },
+    { "path": "/dashboard", "title": "Jobiest - your AI career agent" },
+    { "path": "/generate", "title": "Jobiest - your AI career agent" },
+    { "path": "/jobs", "title": "Saved jobs | Jobiest" },
+    { "path": "/applications", "title": "Jobiest - your AI career agent" },
+    { "path": "/approvals/:id", "title": "Application review | Jobiest" },
+    { "path": "/portfolio/:slug", "title": "Portfolio preview | Jobiest" },
+    { "path": "/styleguide", "title": "TODO-SEO: Jobiest Styleguide" },
+    { "path": "/free-ats-resume-scanner", "title": "Free ATS Resume Checker and Scanner" },
+    { "path": "/free-job-description-analyzer", "title": "Job Description Analyzer: Keywords and Gaps" },
+    { "path": "/free-skills-matcher", "title": "Skills Matcher: You vs the Job Description" },
+    { "path": "/free-salary-insights", "title": "Salary Insights from Real Job Listings" },
+    { "path": "/free-interview-question-generator", "title": "Interview Question Generator" },
+    { "path": "/free-linkedin-headline-builder", "title": "LinkedIn Headline Generator for Recruiters" },
+    { "path": "/free-cover-letter-writer", "title": "Free AI Cover Letter Writer" },
+    { "path": "/free-resume-summary-generator", "title": "Resume Summary Generator" },
+    { "path": "/free-follow-up-email-writer", "title": "Follow-Up Email Writer for Job Applications" },
+    { "path": "/free-career-path-explorer", "title": "Career Path Explorer for Your Skills" }
+  ]
+}
