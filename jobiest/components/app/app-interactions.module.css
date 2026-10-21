@@ -1,6 +1,6 @@
-.viewControls { display: inline-flex; flex-wrap: wrap; gap: 0.35rem; border: 1px solid var(--color-line); border-radius: var(--radius-standard); padding: 0.25rem; background: #fff; }
+.viewControls { display: inline-flex; flex-wrap: wrap; gap: 0.35rem; border: 1px solid var(--color-line); border-radius: var(--radius-standard); padding: 0.25rem; background: var(--color-background); }
 .viewControls button { min-height: 44px; border: 0; border-radius: 7px; padding: 0.55rem 0.8rem; color: var(--color-ink); background: transparent; font: 600 var(--text-14) / 1.2 var(--font-body); cursor: pointer; }
-.viewControls button[aria-pressed="true"] { color: #fff; background: var(--color-primary-navy); }
+.viewControls button[aria-pressed="true"] { color: var(--color-background); background: var(--color-primary-navy); }
 .viewControls button:focus-visible, .actionButtons button:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 3px; }
 .sampleCaption { margin: 0.55rem 0 0; color: var(--color-muted); font-size: var(--text-13); }
 .approvalControls { display: grid; gap: 0.55rem; }

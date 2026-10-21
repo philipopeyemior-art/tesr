@@ -1,0 +1,86 @@
+.page { display: grid; width: 100%; max-width: 1280px; min-width: 0; gap: 2rem; margin: 0 auto; }
+.hero { display: flex; min-width: 0; align-items: center; justify-content: space-between; gap: 2rem; border-radius: var(--radius-card); padding: clamp(1.5rem, 4vw, 2.5rem); color: var(--color-background); background: var(--color-primary-navy); overflow: hidden; }
+.heroCopy { min-width: 0; }
+.heroKicker, .eyebrow { margin: 0 0 0.45rem; color: var(--color-info); font-size: var(--text-13); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.heroKicker { color: var(--color-lime); }
+.hero h1 { max-width: 18ch; margin: 0; color: var(--color-background); font: 600 clamp(2rem, 4vw, 2.75rem) / 1.1 var(--font-display); letter-spacing: -0.035em; }
+.heroLead { max-width: 60ch; margin: 0.9rem 0 0; color: var(--color-background); font-size: var(--text-15); line-height: 1.55; opacity: 0.88; }
+.quotaLine { margin: 1rem 0 0; color: var(--color-lime-soft); font-size: var(--text-13); }
+.profileRing { position: relative; display: grid; width: 142px; height: 142px; flex: 0 0 auto; place-items: center; }
+.profileRing svg { position: absolute; inset: 0; width: 100%; height: 100%; transform: rotate(-90deg); }
+.ringTrack, .ringValue { fill: none; stroke-width: 7; }
+.ringTrack { stroke: var(--color-light-navy); }
+.ringValue { stroke: var(--color-lime); stroke-linecap: round; }
+.profileRing > span { display: grid; position: relative; place-items: center; gap: 0.1rem; text-align: center; }
+.profileRing strong { color: var(--color-background); font: 600 1.75rem / 1 var(--font-display); }
+.profileRing small { color: var(--color-lime-soft); font-size: 0.7rem; letter-spacing: 0.03em; text-transform: uppercase; }
+.trustStrip { display: flex; min-width: 0; align-items: flex-start; gap: 0.7rem; border: 1px solid var(--color-line); border-radius: var(--radius-standard); padding: 0.85rem 1rem; color: var(--color-ink); background: var(--color-surface-tint); font-size: var(--text-14); }
+.trustStrip svg { flex: 0 0 auto; color: var(--color-primary-navy); }
+.trustStrip p { margin: 0; line-height: 1.5; }
+.trustStrip strong { margin-right: 0.25rem; }
+.pipelineSection { display: grid; min-width: 0; gap: 1rem; }
+.sectionHeading, .cardHeading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.sectionHeading h2, .card h2 { margin: 0; color: var(--color-ink); font: 600 var(--text-24) / 1.2 var(--font-display); letter-spacing: -0.02em; }
+.textLink { display: inline-flex; min-height: 36px; align-items: center; gap: 0.3rem; color: var(--color-info); font-size: var(--text-14); font-weight: 700; text-decoration: none; }
+.textLink:hover { text-decoration: underline; text-underline-offset: 3px; }
+.pipelineRail { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+.pipelineNode { position: relative; display: flex; min-width: 0; align-items: center; gap: 0.7rem; }
+.pipelineDot { display: grid; width: 38px; height: 38px; flex: 0 0 auto; place-items: center; border: 2px solid var(--color-lime); border-radius: 50%; color: var(--color-primary-navy); background: var(--color-background); font-weight: 700; }
+.pipelineNode div { display: grid; gap: 0.15rem; }
+.pipelineNode strong { color: var(--color-primary-navy); font: 700 1.35rem / 1 var(--font-display); }
+.pipelineNode div span { color: var(--color-muted); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.pipelineConnector { position: absolute; top: 50%; right: -0.5rem; left: 48px; height: 1px; background: var(--color-line); transform: translateY(-50%); z-index: 0; }
+.pipelineNode > *:not(.pipelineConnector) { position: relative; z-index: 1; }
+.bentoGrid, .lowerGrid { display: grid; min-width: 0; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 1.25rem; }
+.card { display: grid; min-width: 0; align-content: start; gap: 1rem; border: 1px solid var(--color-line); border-radius: var(--radius-card); padding: 1.25rem; background: var(--color-background); box-shadow: var(--shadow-1); }
+.card .eyebrow { margin-bottom: 0.3rem; }
+.cardIntro, .mutedNote { margin: 0; color: var(--color-muted); font-size: var(--text-14); line-height: 1.5; }
+.approvalsCard { grid-column: span 7; }
+.startCard { grid-column: span 5; background: var(--color-surface-tint); }
+.allowanceCard { grid-column: span 4; }
+.statsCard { grid-column: span 4; }
+.controlCard { grid-column: span 4; }
+.nextCard { grid-column: span 6; }
+.countBadge, .previewPill { display: inline-grid; min-width: 30px; height: 30px; place-items: center; border-radius: var(--radius-pill); color: var(--color-primary-navy); background: var(--color-lime-soft); font-size: var(--text-13); font-weight: 700; }
+.previewPill { width: auto; padding: 0 0.6rem; }
+.draftList, .allowanceList, .roleList { display: grid; gap: 0.7rem; }
+.draftRow, .roleRow { display: flex; min-width: 0; align-items: center; justify-content: space-between; gap: 0.8rem; border-top: 1px solid var(--color-line); padding-top: 0.7rem; }
+.draftRow div, .roleRow div { min-width: 0; }
+.draftRow strong, .roleRow strong { display: block; overflow: hidden; color: var(--color-ink); font-size: var(--text-14); text-overflow: ellipsis; white-space: nowrap; }
+.draftRow span, .roleRow span { display: block; margin-top: 0.15rem; overflow: hidden; color: var(--color-muted); font-size: var(--text-13); text-overflow: ellipsis; white-space: nowrap; }
+.smallAction { display: inline-flex; min-height: 34px; flex: 0 0 auto; align-items: center; border: 1px solid var(--color-line); border-radius: var(--radius-standard); padding: 0.35rem 0.6rem; color: var(--color-primary-navy); font-size: var(--text-13); font-weight: 700; text-decoration: none; }
+.smallAction:hover { border-color: var(--color-primary-navy); }
+.primaryAction { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: 0.4rem; border-radius: var(--radius-standard); padding: 0.65rem 0.85rem; color: var(--color-primary-navy); background: var(--color-lime); font-size: var(--text-14); font-weight: 700; text-decoration: none; }
+.primaryAction:hover { background: var(--color-lime-soft); }
+.jobForm { display: grid; gap: 0.45rem; }
+.jobForm label { color: var(--color-ink); font-size: var(--text-13); font-weight: 700; }
+.formRow { display: flex; min-width: 0; gap: 0.5rem; }
+.formRow input { min-width: 0; flex: 1 1 auto; border: 1px solid var(--color-line); border-radius: var(--radius-standard); padding: 0.7rem; color: var(--color-ink); background: var(--color-background); font-size: var(--text-14); }
+.formRow button { display: inline-flex; min-height: 44px; flex: 0 0 auto; align-items: center; gap: 0.35rem; border: 0; border-radius: var(--radius-standard); padding: 0.6rem 0.75rem; color: var(--color-background); background: var(--color-primary-navy); font-size: var(--text-14); font-weight: 700; cursor: pointer; }
+.formNote { display: flex; align-items: center; gap: 0.4rem; margin: 0; color: var(--color-muted); font-size: var(--text-13); }
+.allowanceList > div { display: grid; grid-template-columns: 1fr auto; gap: 0.4rem 0.75rem; color: var(--color-ink); font-size: var(--text-14); }
+.allowanceList strong { color: var(--color-primary-navy); }
+.progress { grid-column: 1 / -1; height: 8px; overflow: hidden; border-radius: var(--radius-pill); background: var(--color-surface-tint); }
+.progress span { display: block; height: 100%; border-radius: inherit; background: var(--color-lime); }
+.statsGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
+.statsGrid div { display: grid; gap: 0.25rem; min-width: 0; }
+.statsGrid strong { color: var(--color-primary-navy); font: 600 1.6rem / 1 var(--font-display); }
+.statsGrid span { color: var(--color-muted); font-size: 0.75rem; line-height: 1.3; }
+.toggleRow { display: flex; align-items: center; gap: 0.65rem; color: var(--color-ink); font-size: var(--text-14); font-weight: 700; cursor: not-allowed; }
+.toggleRow input { position: absolute; opacity: 0; pointer-events: none; }
+.toggleTrack { display: flex; width: 42px; height: 24px; align-items: center; border-radius: var(--radius-pill); padding: 3px; background: var(--color-line); }
+.toggleTrack span { width: 18px; height: 18px; border-radius: 50%; background: var(--color-background); box-shadow: var(--shadow-1); }
+.nextProgress { display: grid; gap: 0.5rem; color: var(--color-muted); font-size: var(--text-13); }
+.nextProgress strong { color: var(--color-ink); }
+.lowerGrid { gap: 1.25rem; }
+.rolesCard { grid-column: span 7; }
+.setupCard { grid-column: span 5; }
+.matchScore { flex: 0 0 auto; color: var(--color-primary-navy) !important; font-weight: 700; }
+.stepList { display: grid; gap: 0.8rem; padding: 0; margin: 0; list-style: none; }
+.stepList li { display: flex; align-items: flex-start; gap: 0.65rem; }
+.stepList li > span { display: grid; width: 26px; height: 26px; flex: 0 0 auto; place-items: center; border-radius: 50%; color: var(--color-primary-navy); background: var(--color-lime-soft); font-size: var(--text-13); font-weight: 700; }
+.stepList div { display: grid; gap: 0.15rem; }
+.stepList strong { color: var(--color-ink); font-size: var(--text-14); }
+.stepList small { color: var(--color-muted); font-size: var(--text-13); }
+@media (max-width: 900px) { .approvalsCard, .startCard, .allowanceCard, .statsCard, .controlCard, .nextCard, .rolesCard, .setupCard { grid-column: span 6; } .approvalsCard, .startCard { grid-column: 1 / -1; } }
+@media (max-width: 620px) { .page { gap: 1.5rem; } .hero { align-items: stretch; flex-direction: column; text-align: left; } .hero h1 { max-width: 20ch; } .profileRing { align-self: center; } .sectionHeading { align-items: flex-start; flex-direction: column; } .pipelineRail { display: flex; max-width: 100%; gap: 1rem; overflow-x: auto; padding: 0.2rem 0.1rem 0.5rem; scroll-snap-type: x proximity; } .pipelineNode { min-width: 145px; scroll-snap-align: start; } .pipelineConnector { right: -0.5rem; } .bentoGrid, .lowerGrid { display: grid; grid-template-columns: 1fr; } .approvalsCard, .startCard, .allowanceCard, .statsCard, .controlCard, .nextCard, .rolesCard, .setupCard { grid-column: 1; } .formRow { align-items: stretch; flex-direction: column; } .formRow button { justify-content: center; } .statsGrid { gap: 0.5rem; } .statsGrid strong { font-size: 1.35rem; } }
